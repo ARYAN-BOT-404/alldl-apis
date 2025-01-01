@@ -13,7 +13,7 @@
 
 3. Start the server:
    ```bash
-   npm start
+   node index.js
    ```
 
    This will start the server on [http://localhost:3000](http://localhost:3000).
