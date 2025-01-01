@@ -1,10 +1,10 @@
 const express = require('express');
-const aryan = require('aryan-videos-downloader');
+const { alldl } = require('aryan-videos-downloader');
 const path = require('path');
 const axios = require('axios')
 
-const app = express();
-const PORT = process.env.PORT || 3000;
+const app = express(); // Initialize app here
+const port = 3000;
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'views')));
@@ -21,7 +21,7 @@ app.get('/alldl', async (req, res) => {
     }
 
     try {
-        const data = await aryan.alldown(url);
+        const data = await alldl(url);
         res.json(data);
         console.log(data);
     } catch (error) {
@@ -31,5 +31,5 @@ app.get('/alldl', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running ${PORT}`);
+    console.log(`Server is running`);
 });
