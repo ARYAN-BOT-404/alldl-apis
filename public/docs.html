@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> 𝗔𝗥𝗬𝗔𝗡 𝗔𝗣𝗜 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url(https://i.imgur.com/Dr9PVYY.jpeg) no-repeat center center fixed;
+            background-size: cover;
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+
+        .center {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #FF00BF;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+
+        .linkflex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            ;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1 class="animated-rainbow">♡︎ 𝗔𝗥𝗬𝗔𝗡 ♡︎</h1>
+
+        <p id="datetime"></p>
+        <table>
+            <tr>
+                <th class="animated-rainbow">Number</th>
+                <th class="animated-rainbow">Name</th>
+                <th class="animated-rainbow">Method</th>
+                <th class="animated-rainbow">Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alldown</td>
+                <td>Get</td>
+                <td><a href="/alldl?url=">[ ➠ ]</a></td>
+            </tr <tr></tr>
+        </table>
+
+        <footer class="animated-rainbow">
+            <p>𝙲𝚛𝚎𝚍𝚒𝚝𝚜: ArYAN </p>
+        </footer>
+        <table></table>
+    </div>
+    <script></script>
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var dateTimeString = now.toLocaleString();
+            document.getElementById("datetime").innerHTML = dateTimeString;
+        }
+        setInterval(updateDateTime, 1000);
+    </script>
+</body>
+
+</html>
