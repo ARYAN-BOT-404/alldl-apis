@@ -12,20 +12,6 @@ GET /api?url=https://example.com/video
 }
 ```
 
-#### Example Response:
-```json
-{
-  "response": "Paris"
-}
-```
-
----
-
-## Running the Application
-
-### Prerequisites
-- Node.js (version 14.x or higher)
-- npm (Node package manager)
 
 ### Installation
 
@@ -45,20 +31,5 @@ GET /api?url=https://example.com/video
    ```
 
    This will start the server on [http://localhost:3000](http://localhost:3000).
-
----
-
-## File Structure
-
-```
-/project-root
-|-- /public
-|   |-- index.html      # Homepage of the application
-|   |-- docs.html       # Documentation page
-|-- /views              # Static assets served to the client
-|-- server.js           # Main application logic
-|-- package.json        # Node.js project dependencies and scripts
-|-- README.md           # Project documentation
-```
 
 ---
