@@ -1,17 +1,3 @@
-#### Example Request:
-```bash
-GET /api?url=https://example.com/video
-```
-
-#### Example Response:
-```json
-{
-  "title": "Video Title",
-  "url": "https://example.com/video",
-  "size": "100MB"
-}
-```
-
 
 ### Installation
 
